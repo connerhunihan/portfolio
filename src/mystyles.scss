@@ -13,6 +13,7 @@ $black-ter: #4A4A4A;
 $grey: #B1B1B1;
 $grey-light: #E6E6E6;
 $grey-lighter: #F4F4F4;
+$white: #FFFFFF;
 
 // derived variables (Update Bulma's global variables)
 // type
@@ -27,8 +28,9 @@ $link: $red;
 $text: $black-ter;
 $info: $blue;
 
-// Update some of Bulma's component variables
-
+// Update Bulma's component variables
+$footer-background-color: $white;
+$navbar-height: 8rem;
 
 // typography stylings
 // Stylings pulled from Zeplin, which pulled from Sketch design file
@@ -135,6 +137,7 @@ $info: $blue;
   letter-spacing: -2px;
   text-align: center;
   color: #fed766;
+  text-transform: uppercase;
 };
 
 .nav-active {
@@ -212,10 +215,10 @@ $info: $blue;
 // Import only what you need from Bulma
 @import "../node_modules/bulma/sass/utilities/_all.sass";
 @import "../node_modules/bulma/sass/base/_all.sass";
-@import "../node_modules/bulma/sass/elements/button.sass";
 @import "../node_modules/bulma/sass/elements/container.sass";
-@import "../node_modules/bulma/sass/elements/form.sass";
-@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/elements/image.sass";
 @import "../node_modules/bulma/sass/components/navbar.sass";
 @import "../node_modules/bulma/sass/layout/hero.sass";
 @import "../node_modules/bulma/sass/layout/section.sass";
+@import "../node_modules/bulma/sass/layout/footer.sass";
+@import "../node_modules/bulma/sass/grid/columns.sass";
