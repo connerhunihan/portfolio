@@ -1,0 +1,221 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+// initial variables 
+// colors
+$blue: #2AB7CA;
+$red: #FE4A49;
+$yellow: #FED766;
+$black-ter: #4A4A4A;
+$grey: #B1B1B1;
+$grey-light: #E6E6E6;
+$grey-lighter: #F4F4F4;
+
+// derived variables (Update Bulma's global variables)
+// type
+$family-sans-serif: "Montserrat", sans-serif;
+$family-sans-serif-secondary: "Source Sans Pro", sans-serif;
+$family-primary: $family-sans-serif;
+$family-secondary: $family-sans-serif-secondary;
+
+// color 
+$primary: $blue;
+$link: $red;
+$text: $black-ter;
+$info: $blue;
+
+// Update some of Bulma's component variables
+
+
+// typography stylings
+// Stylings pulled from Zeplin, which pulled from Sketch design file
+
+.header-1 {
+  font-family: Montserrat;
+  font-size: 34px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  padding-bottom: 0.625em;
+};
+
+.header-2 {
+  font-family: Montserrat;
+  font-size: 27px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  padding-bottom: 0.3125em;
+};
+
+.header-3 {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.77;
+  letter-spacing: 2.4px;
+  color: #4a4a4a;
+  text-transform: uppercase;
+};
+
+.paragraph-lead {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  padding-bottom: 1.5625em;
+};
+
+.paragraph-light {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  padding-bottom: 0.625em;
+};
+
+.hyperllinks {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fe4a49;
+};
+
+.form-label-headers {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  color: #4a4a4a;
+  text-transform: uppercase;
+};
+
+.form-label-subheader {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  color: #4a4a4a;
+};
+
+.logo {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 27px;
+  font-weight: 900;
+  line-height: 40px;
+  letter-spacing: -2px;
+  text-align: center;
+  color: #fed766;
+};
+
+.nav-active {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #2ab7ca;
+};
+
+.nav-inactive {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #e6e6e6;
+};
+
+.caption-header {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #b1b1b1;
+  text-transform: uppercase;
+};
+
+.caption-body {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b1b1b1;
+};
+
+.title-header {
+  font-family: Montserrat;
+  font-size: 45px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 55px;
+  letter-spacing: 2px;
+  color: #4a4a4a;
+  text-transform: uppercase;
+};
+
+.title-body {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+};
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/form.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/layout/hero.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";
