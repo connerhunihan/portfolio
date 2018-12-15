@@ -1,4 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat);@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);.header-1 {
+@import url(https://fonts.googleapis.com/css?family=Montserrat);@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);#navbar {
+  padding-top: 2.5rem;
+  height: 8rem; }
+
+.header-1 {
   font-family: Montserrat;
   font-size: 34px;
   font-weight: 600;

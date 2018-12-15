@@ -32,9 +32,15 @@ $info: $blue;
 $footer-background-color: $white;
 $navbar-height: 8rem;
 
+
 // typography stylings
 // Stylings pulled from Zeplin, which pulled from Sketch design file
 
+#navbar {
+  padding-top: 2.5rem;
+  height: 8rem;
+
+}
 .header-1 {
   font-family: Montserrat;
   font-size: 34px;
