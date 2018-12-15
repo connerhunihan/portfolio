@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat);@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);#navbar {
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,500,600,600i,700);@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);#navbar {
   padding-top: 2.5rem;
   height: 8rem; }
 
@@ -90,7 +90,7 @@
 
 .logo {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 27px;
+  font-size: 33px;
   font-weight: 900;
   line-height: 40px;
   letter-spacing: -2px;
@@ -101,7 +101,7 @@
 .nav-active {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 17px;
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
@@ -112,7 +112,7 @@
 .nav-inactive {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 17px;
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
@@ -123,7 +123,7 @@
 .caption-header {
   font-family: Montserrat;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 600i;
   font-style: italic;
   font-stretch: normal;
   line-height: normal;
@@ -135,7 +135,7 @@
 .caption-body {
   font-family: Montserrat;
   font-size: 12px;
-  font-weight: 300;
+  font-weight: 300i;
   font-style: italic;
   font-stretch: normal;
   line-height: normal;
