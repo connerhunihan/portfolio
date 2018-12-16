@@ -54,6 +54,20 @@ $navbar-height: 8rem;
   color: $red;
 }
 
+#about_sections {
+  padding-bottom: 3em;
+}
+
+#about_subsections {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+#about_links {
+  font-weight: 300;
+  text-transform: uppercase;
+  color: $red;
+}
+
 // custom typography styling classes
 .header-1 {
   font-family: Montserrat;
@@ -115,6 +129,19 @@ $navbar-height: 8rem;
   padding-bottom: 0.625em;
 };
 
+.paragraph-light-italic {
+  font-style: italic;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  padding-bottom: 0.625em;
+}
+
 .hyperllinks {
   font-family: Montserrat;
   font-size: 15px;
@@ -147,6 +174,7 @@ $navbar-height: 8rem;
   line-height: normal;
   letter-spacing: 1.5px;
   color: #4a4a4a;
+  padding-bottom: 1em;
 };
 
 .logo {
