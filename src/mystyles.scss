@@ -21,9 +21,11 @@ $family-sans-serif: "Montserrat", sans-serif;
 $family-sans-serif-secondary: "Source Sans Pro", sans-serif;
 $family-primary: $family-sans-serif;
 $family-secondary: $family-sans-serif-secondary;
+$link-hover: red;
 
 // color 
 $primary: $blue;
+$success: $red;
 $link: $red;
 $text: $black-ter;
 $info: $blue;
@@ -32,15 +34,27 @@ $info: $blue;
 $footer-background-color: $white;
 $navbar-height: 8rem;
 
-
-// typography stylings
-// Stylings pulled from Zeplin, which pulled from Sketch design file
-
+// custom id selector styling
 #navbar {
   padding-top: 2.5rem;
   height: 8rem;
 }
 
+#social_icons {
+  color: $grey-light;
+}
+#social_icons:hover {
+  color: $red;
+}
+
+#return_to_top .nav-inactive {
+  color: $grey-light;
+}
+#return_to_top:hover .nav-inactive {
+  color: $red;
+}
+
+// custom typography styling classes
 .header-1 {
   font-family: Montserrat;
   font-size: 34px;
@@ -145,6 +159,9 @@ $navbar-height: 8rem;
   color: #fed766;
   text-transform: uppercase;
 };
+.logo:hover {
+  color: $yellow;
+}
 
 .nav-active {
   font-family: 'Source Sans Pro', sans-serif;
@@ -217,6 +234,14 @@ $navbar-height: 8rem;
   letter-spacing: normal;
   color: #4a4a4a;
 };
+
+// custom Bulma-like classes
+.has-image-centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
 // Import only what you need from Bulma
 @import "../node_modules/bulma/sass/utilities/_all.sass";
