@@ -55,9 +55,8 @@ $navbar-height: 8rem;
 }
 
 #about_sections {
-  padding-bottom: 3em;
+  padding-bottom: 2em;
 }
-
 #about_subsections {
   padding-bottom: 0 !important;
   margin-bottom: 0 !important;
@@ -66,6 +65,9 @@ $navbar-height: 8rem;
   font-weight: 300;
   text-transform: uppercase;
   color: $red;
+}
+#about_photo {
+  width: 300px;
 }
 
 // custom typography styling classes

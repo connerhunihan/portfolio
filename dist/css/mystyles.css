@@ -15,7 +15,7 @@
   color: #FE4A49; }
 
 #about_sections {
-  padding-bottom: 3em; }
+  padding-bottom: 2em; }
 
 #about_subsections {
   padding-bottom: 0 !important;
@@ -25,6 +25,9 @@
   font-weight: 300;
   text-transform: uppercase;
   color: #FE4A49; }
+
+#about_photo {
+  width: 300px; }
 
 .header-1 {
   font-family: Montserrat;
