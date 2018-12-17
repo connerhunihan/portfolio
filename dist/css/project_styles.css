@@ -1,0 +1,24 @@
+.has-bg-img {
+  background: url('../../assets/background-gradient.png'); 
+  background-size:cover; 
+  height: 20rem;
+  margin-bottom: 1rem;
+}
+
+.hero-photo {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 50%;
+}
+.hero-section {
+  margin-bottom: 2rem;
+}
+.hero-section .header-1 {
+  margin-top: 2rem;
+}
+.hero-section .paragraph-lead {
+  margin-bottom: 1rem;
+}
+.hero-section .form-label-subheaders {
+  line-height: 1rem;
+}

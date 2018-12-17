@@ -5,7 +5,9 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'js/bundle.js'
+    filename: 'js/bundle.js',
+    // publicPath: "http://localhost:8080/", // Development Server
+    // publicPath: "http://example.com/", // Production Server
   },
   watch: true,
   module: {

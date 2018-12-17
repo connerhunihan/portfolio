@@ -4,6 +4,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,500,600,600i,700');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900');
 
+// https://stackoverflow.com/questions/14294531/where-does-import-compass-css3-in-zurbs-foundation-come-from
+// @import "compass/css3";
+
 // initial variables 
 // colors
 $blue: #2AB7CA;
@@ -29,12 +32,14 @@ $success: $red;
 $link: $red;
 $text: $black-ter;
 $info: $blue;
+$light: $grey-light;
 
-// Update Bulma's component variables
+// Bulma component variables
 $footer-background-color: $white;
 $navbar-height: 8rem;
+$dimensions: 16 24 32 48 64 128 1000;
 
-// custom id selector styling
+// custom ids 
 #navbar {
   padding-top: 2.5rem;
   height: 8rem;
@@ -70,7 +75,7 @@ $navbar-height: 8rem;
   width: 300px;
 }
 
-// custom typography styling classes
+// typography classes
 .header-1 {
   font-family: Montserrat;
   font-size: 34px;
@@ -265,21 +270,24 @@ $navbar-height: 8rem;
   color: #4a4a4a;
 };
 
-// custom Bulma-like classes
+// stackoverflow classes
 .has-image-centered {
   margin-left: auto;
   margin-right: auto;
 }
 
-
+// // extending Bulma classes
+// .hero-project {
+//   @extend .hero;
+//   background-image: url("/project-hero2.png");
+// }
 
 // Import only what you need from Bulma
 @import "../node_modules/bulma/sass/utilities/_all.sass";
 @import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/layout/_all.sass";
 @import "../node_modules/bulma/sass/elements/container.sass";
 @import "../node_modules/bulma/sass/elements/image.sass";
 @import "../node_modules/bulma/sass/components/navbar.sass";
-@import "../node_modules/bulma/sass/layout/hero.sass";
-@import "../node_modules/bulma/sass/layout/section.sass";
-@import "../node_modules/bulma/sass/layout/footer.sass";
+@import "../node_modules/bulma/sass/components/level.sass";
 @import "../node_modules/bulma/sass/grid/columns.sass";
