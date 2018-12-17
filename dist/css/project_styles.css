@@ -11,14 +11,38 @@
   width: 50%;
 }
 .hero-section {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 .hero-section .header-1 {
   margin-top: 2rem;
+  padding-bottom: 0rem;
 }
 .hero-section .paragraph-lead {
   margin-bottom: 1rem;
+  padding-bottom: .5rem;
+}
+.hero-section .paragraph-lead a {
+  font-weight: 600;
+  color: $red;
 }
 .hero-section .form-label-subheaders {
   line-height: 1rem;
+}
+
+.process-image {
+  width: 50%;
+}
+
+.fw-img {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  z-index: 0;
+}
+
+#phase {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }

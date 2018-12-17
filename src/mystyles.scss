@@ -276,11 +276,6 @@ $dimensions: 16 24 32 48 64 128 1000;
   margin-right: auto;
 }
 
-// // extending Bulma classes
-// .hero-project {
-//   @extend .hero;
-//   background-image: url("/project-hero2.png");
-// }
 
 // Import only what you need from Bulma
 @import "../node_modules/bulma/sass/utilities/_all.sass";
