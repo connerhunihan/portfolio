@@ -82,7 +82,7 @@
   line-height: normal;
   letter-spacing: normal;
   color: #4a4a4a;
-  padding-bottom: 0.625em; }
+  padding-bottom: 2em; }
 
 .paragraph-light-italic {
   font-style: italic;
@@ -173,7 +173,10 @@
   letter-spacing: 1px;
   text-align: center;
   color: #b1b1b1;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto; }
 
 .caption-body {
   font-family: Montserrat;
@@ -184,7 +187,10 @@
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
-  color: #b1b1b1; }
+  color: #b1b1b1;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto; }
 
 .title-header {
   font-family: Montserrat;
@@ -206,6 +212,29 @@
   line-height: normal;
   letter-spacing: normal;
   color: #4a4a4a; }
+
+.blockquote {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #B1B1B1;
+  padding: .5em 2em 0em 2em; }
+
+.blockquote-attribution {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #B1B1B1;
+  padding: 0em 2em 2em 2em; }
 
 .has-image-centered {
   margin-left: auto;

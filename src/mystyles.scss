@@ -133,7 +133,7 @@ $dimensions: 16 24 32 48 64 128 1000;
   line-height: normal;
   letter-spacing: normal;
   color: #4a4a4a;
-  padding-bottom: 0.625em;
+  padding-bottom: 2em;
 };
 
 .paragraph-light-italic {
@@ -233,6 +233,9 @@ $dimensions: 16 24 32 48 64 128 1000;
   text-align: center;
   color: #b1b1b1;
   text-transform: uppercase;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
 };
 
 .caption-body {
@@ -245,6 +248,9 @@ $dimensions: 16 24 32 48 64 128 1000;
   letter-spacing: normal;
   text-align: center;
   color: #b1b1b1;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
 };
 
 .title-header {
@@ -269,6 +275,31 @@ $dimensions: 16 24 32 48 64 128 1000;
   letter-spacing: normal;
   color: #4a4a4a;
 };
+
+.blockquote {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #B1B1B1;
+  padding: .5em 2em 0em 2em;
+}
+
+.blockquote-attribution {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #B1B1B1;
+  padding: 0em 2em 2em 2em;
+}
 
 // stackoverflow classes
 .has-image-centered {
