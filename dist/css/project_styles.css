@@ -1,8 +1,8 @@
 .has-bg-img {
-  background: url('../../assets/background-gradient.png'); 
+  background: url('../../assets/background-gradient-gray.png'); 
   background-size:cover; 
-  height: 20rem;
-  margin-bottom: 1rem;
+  height: 100%;
+  padding: 2.25rem 0 2.25rem 0;
 }
 
 .hero-photo {
@@ -30,18 +30,62 @@
 }
 
 .process-image {
-  width: 50%;
+  width: 75%;
 }
 
 .fw-img {
-  margin-top: 3rem;
   margin-left: auto;
   margin-right: auto;
   width: 90%;
   z-index: 0;
 }
+ 
+.prototype-container {
+  position: relative;
+  padding-bottom: 115%; /*1:2*/
+  margin-bottom: 25%;
+  overflow: hidden;
+}
+ 
+.prototype-container iframe,
+.prototype-container object,
+.prototype-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /*16:9*/
+  padding-top: 30px; 
+  height: 0; 
+  overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 #phase {
   margin-top: 5rem;
   margin-bottom: 5rem;
+}
+
+#prototype-margin-buffer {
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+}
+
+#video-margin-buffer {
+  margin-bottom: 7rem;
+  margin-top: 3rem;
 }

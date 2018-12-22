@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,500,600,600i,700);@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);#navbar {
   padding-top: 2.5rem;
-  height: 8rem; }
+  height: 6.5rem; }
 
 #social_icons {
   color: #E6E6E6; }
@@ -31,7 +31,7 @@
 
 .header-1 {
   font-family: Montserrat;
-  font-size: 34px;
+  font-size: 40px;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -42,7 +42,7 @@
 
 .header-2 {
   font-family: Montserrat;
-  font-size: 27px;
+  font-size: 37px;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -53,7 +53,7 @@
 
 .header-3 {
   font-family: Montserrat;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
@@ -64,7 +64,7 @@
 
 .paragraph-lead {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 24px;
+  font-size: 23px;
   font-weight: 400;
   font-style: normal;
   font-stretch: normal;
@@ -75,11 +75,11 @@
 
 .paragraph-light {
   font-family: Montserrat;
-  font-size: 15px;
+  font-size: 19px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
-  line-height: normal;
+  line-height: 27px;
   letter-spacing: normal;
   color: #4a4a4a;
   padding-bottom: 2em; }
@@ -87,7 +87,7 @@
 .paragraph-light-italic {
   font-style: italic;
   font-family: Montserrat;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
@@ -98,7 +98,7 @@
 
 .hyperllinks {
   font-family: Montserrat;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 700;
   font-style: normal;
   font-stretch: normal;
@@ -108,7 +108,7 @@
 
 .form-label-headers {
   font-family: Montserrat;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -119,7 +119,7 @@
 
 .form-label-subheader {
   font-family: Montserrat;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
@@ -165,32 +165,32 @@
 
 .caption-header {
   font-family: Montserrat;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 600i;
-  font-style: italic;
+  font-style: bold;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: 1px;
   text-align: center;
   color: #b1b1b1;
   text-transform: uppercase;
-  margin-top: 1em;
-  margin-left: auto;
-  margin-right: auto; }
+  margin: 1em 5% .5em 5%;
+  text-align: center; }
 
 .caption-body {
   font-family: Montserrat;
-  font-size: 12px;
-  font-weight: 300i;
-  font-style: italic;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
   color: #b1b1b1;
   margin-bottom: 3rem;
-  margin-left: auto;
-  margin-right: auto; }
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center; }
 
 .title-header {
   font-family: Montserrat;
@@ -215,30 +215,35 @@
 
 .blockquote {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 24px;
+  font-size: 31px;
   font-weight: 300;
   font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
+  line-height: 42px;
   letter-spacing: normal;
   color: #B1B1B1;
-  padding: .5em 2em 0em 2em; }
+  padding: .5em 2em .35em 2em; }
 
 .blockquote-attribution {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 12px;
+  font-size: 19px;
   font-weight: 300;
   font-style: normal;
-  font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
   text-align: right;
-  color: #B1B1B1;
+  color: #E6E6E6;
   padding: 0em 2em 2em 2em; }
 
 .has-image-centered {
   margin-left: auto;
   margin-right: auto; }
+
+.has-vert-center {
+  vertical-align: bottom;
+  display: table-cell; }
+
+.has-vert-center img {
+  vertical-align: bottom; }
 
 @keyframes spinAround {
   from {
