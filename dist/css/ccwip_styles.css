@@ -1,0 +1,6 @@
+.has-bg-img {
+  background: url('../../assets/CCWIP/banner-ccwip.png'); 
+  background-size:cover; 
+  height: 10rem;
+  padding: 2.25rem 0 2.25rem 0;
+}

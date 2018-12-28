@@ -30,7 +30,7 @@
 }
 
 .process-image {
-  width: 75%;
+  width: 50%;
 }
 
 .fw-img {
@@ -42,8 +42,8 @@
  
 .prototype-container {
   position: relative;
-  padding-bottom: 115%; /*1:2*/
-  margin-bottom: 25%;
+  padding-bottom: 200%; /*1:2*/
+  margin-bottom: 50%;
   overflow: hidden;
 }
  
@@ -53,8 +53,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 120%;
+  width: 120%;
+  height: 150%;
 }
 
 .video-container {
