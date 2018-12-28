@@ -1,0 +1,13 @@
+.cc-bg-img {
+  background: url('../../assets/CC/background-gradient.png'); 
+  background-size:cover; 
+  height: 100%;
+}
+
+.vertical-center {
+  margin: auto 0 auto 0;
+}
+
+.horizontal-center {
+  margin: 0 auto 0 auto;
+}

@@ -1,6 +1,21 @@
-.has-bg-img {
+.ccwip-bg-img {
   background: url('../../assets/CCWIP/banner-ccwip.png'); 
   background-size:cover; 
-  height: 10rem;
-  padding: 2.25rem 0 2.25rem 0;
+  height: 250px;
+  margin-bottom: 1%;
+}
+
+.fw-img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  z-index: 0;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /*16:9*/
+  padding-top: 30px; 
+  height: 0; 
+  overflow: hidden;
 }

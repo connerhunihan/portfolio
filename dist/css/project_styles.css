@@ -75,6 +75,10 @@
   height: 100%;
 }
 
+.has-video-player-margin {
+  margin: 5% 15% 10% 15%;
+}
+
 #phase {
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -83,9 +87,4 @@
 #prototype-margin-buffer {
   margin-bottom: 0rem;
   margin-top: 0rem;
-}
-
-#video-margin-buffer {
-  margin-bottom: 7rem;
-  margin-top: 3rem;
 }

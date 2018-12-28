@@ -4,6 +4,7 @@
     <title>Conner Hunihan</title>
     <link rel="stylesheet" href="../css/mystyles.css">
     <link rel="stylesheet" href="../css/project_styles.css">
+    <link rel="stylesheet" href="../css/cc_styles.css">
     <!-- <link rel="stylesheet" href="../css/debugger.css"> -->
 
     <!-- Font Awesome -->
@@ -49,9 +50,34 @@
 
 <!-- TOP FOLD -->
 <section class="hero hero-section">
-  <div class="hero has-bg-img">
-    <div class="has-image-centered">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/FRtFQnNJARk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class="columns cc-bg-img">
+    <div class="column is-offset-1 is-10">
+      <div class="columns">
+        <div class="column is-3 vertical-center">
+          <p class="blockquote" style="
+          color: #EF9421; 
+          padding: 0; 
+          text-transform: uppercase; 
+          font-weight: 400; 
+          font-size: 2em;">
+            User Agency
+          </p>
+        </div>
+        <div class="column is-6">
+          <iframe width="100%" height="250" src="https://www.youtube.com/embed/FRtFQnNJARk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="column is-3 vertical-center">
+          <p class="blockquote" style="
+          text-align: right; 
+          color: #EF9421; 
+          padding: 0; 
+          text-transform: uppercase; 
+          font-weight: 400; 
+          font-size: 2em;">
+            Device Agnostic
+          </p>
+        </div>
+      </div>
     </div>
   </div>
   <div class="columns">
@@ -60,7 +86,13 @@
         License Chooser Tool Redesign
       </p>
       <p class="paragraph-lead">
-        Four week collaboration with the Creative Commons to redesign the <a href="https://creativecommons.org/choose/">License Chooser Tool</a> on desktop, mobile, and third party platforms. 
+        The Creative Commons (CC) is a non-profit organization that has developed several copyright-licenses that help content creators share and protect their work by licensing it free of charge to the public. 
+      </p>
+      <p class="paragraph-lead">
+        In January 2018, CC kicked off the <a href="https://medium.com/@janepk/findings-from-the-discovery-phase-of-cc-usability-3bde89d55a74">CC Usability Initiative</a> to rennovate the experience of CC licensing. Nine core insights were discovered and six projects green-lit for prototyping.
+      </p>
+      <p class="paragraph-lead">
+       Redesigning the License Chooser Tool was one of those six projects, and CC partnered with students from INFO290: Product Studio Design to develop the concept and deliver a high fidelity prototype. 
       </p>
 
       <div class="columns">
@@ -116,28 +148,16 @@
     <div class="column is-8">
       <div class="content">
         <p class="header-2">
-          Project Background
-        </p>
-        <p class="header-3">
-          The Creative COmmons
+          Research Synthesis
         </p>
         <p class="paragraph-light">
-          The Creative Commons (CC) is a non-profit dedicated to expanding the range of creative works available for others to build upon levally and to share. The organization has developed several copyright-licenses known as Creative Commons licenses that help content creators protect their work by licensing it free of charge to the public. 
-        </p>
-        <p class="header-3">
-          The CC USability Initiative
-        </p>
-        <p class="paragraph-light">
-          In January 2018, CC kicked off the CC Usability Initiative to update the experience of CC licensing and discovery to reflect the realities of digital sharing in 2018, and to antiripate and design for the future of digital content sharing. <a href-"https://drive.google.com/file/d/1qoGVRlFtFL99pKzwg6Tefh1oqOz5dSIB/view">After six months of user research, CC revealed nine core insights and green lit six project concepts for prototyping.</a> The Creative Commons partnered with individual students from INFO290: Product Studio Design to realize three of those concepts, collaborating directly with the Director of Product & Research, Jane Park. 
-        </p>
-        <p class="header-2">
-          Key Insights
+          CC staff conducted a total of 117 interviews with publications and users of all kinds. This resulted in nine keyinsights, two of which were relevant to the License Chooser Tool: 
         </p>
         <p class="header-3">
           Licenses are not understood
         </p>
         <p class="paragraph-light">
-          The research phase of <em>CC Usability</em> yielded two significant challenges in the process of finding and applying a license. The first was the realization that while people understand that CC stands for free content sharing, the specifics of licensing were not clearly understood.
+          While creators understand that CC stands for free content sharing, the specifics of licensing were not clearly understood.
         </p>
         <p class="blockquote">
           "I've been using CC for years and I couldn't explain the differences between the license options to you."
@@ -149,7 +169,7 @@
           The Licensing Process is not understood
         </p>
         <p class="paragraph-light">
-          A second insight that came out of the CC Usability findings was that while people are motivated to license their work under CC, they have a hard time figuring out how to do so. While some of this uncertainty could be addressed through a redesign of the License Chooser Tool on the CC website, the issue of figuring out how to apply a license most frequently presents itself on third-party platforms at the moment when users first upload content.
+          While creators are motivated to license their work under CC, they have a hard time figuring out how to do so. While usability of the existing License Chooser Tool undoubtedly caused some of this uncertainty, interviews suggested that creators simply did not fully understand the process. In particular, how licenses are generated on the CC website, but often nbeeding to be applied on third-party platforms at the moment the creator uploads their content.
         </p>
         <p class="blockquote">
           "An event producer and artist says he's always meant to CC license some of his work, but has never gotten around to it. "Maybe if it was more easier, like swipe up to license...""
@@ -159,9 +179,6 @@
         </p>
 
         <p class="paragraph-light">
-          Further, licenses need to be attached to the work they are being applied to, and since digital work is hosted on third-party platforms (YouTube, Flikr, Medium), the introduction of users to CC licensing is often left to those third-party platforms to design. 
-          <br>
-          <br>
           This has lead to a lack of standardization across platforms, as well as feeling of loss of control by users.
         </p>
 
@@ -187,25 +204,29 @@
     <div class="column is-8">
       <div class="content">
         <p class="header-2">
-          Final Project Scope
+          Project Scope
         </p>
         <p class="header-3">
-          Constraints
+          Design Objective
         </p>
         <p class="paragraph-light">
-          Working directly with CC staff, the constraints for the project were finalized. CC users needed a way to not only find the license they needed, but to learn about the selection process along the way. The design of such a selector tool also needed to be portable across platforms, in order to offer third-party content hosting platforms a standardized template.
+          Working with the Director of Product & Research, a final design objective was framed: give users a tool, not only to find the license they need, but to learn about the licensing process along the way. This tool also needed to be portable across platforms, in order to offer third-party content hosting platforms a standardized template.
         </p>
         <p class="blockquote">
-          How might the design of the license chooser tool empower users to better understand the process and intricacies of the license they are selecting? 
+          How might we educate users about the process of using the license they are selecting for their work? 
         </p>
         <p class="blockquote-attribution"></p>
         <p class="header-3">
           Target User
         </p>
         <p class="paragraph-light">
-          A single user persona – Paulo – was developed to ground design critique. Paulo is a typical user; he is a University professor who wrote a paper that was recently cited by a publishing group, The Converation. As part of his research, Paulo produces many types of content, uses many tools, and stores his content on multiple platforms. For Paulo, his content is his life’s work, and so it is important not only to be able to share it, but to protect it. 
-          <br>
-          For Paulo, act of sharing is a statement. 
+          A user persona was created in the shadow of a typical user. Paulo is a University professor who publishes a variety of content types (academic papers, datasets, conference presentations), and he publishes that content across a variety of platforms, using many tools. 
+        </p>
+        <p class="paragraph-light">
+          For Paulo, content is his life’s work, and so it is important not only to share it publically, but to protect it, as well. Paulo believes that the open sharing of knowledge is fundamental to his work. 
+        </p>
+        <p class="paragraph-light">
+          For Paulo, the act of sharing is a statement. 
         </p>
         <div class="hero">
           <img class="fw-img" src="../../assets/CC/Paulo.png"/>
@@ -213,10 +234,10 @@
           <p class="caption-body"></p>
         </div>
         <p class="header-3">
-          Deliverables
+          Deliverable: Redesign the License Chooser Tool
         </p>
         <p class="paragraph-light">
-          The final deliverable for the project would be a high-fidelity prototype of a License Selector feature to replace the existing selector tool on the CC website. The design was to address selection on both mobile and desktop devices, and also needed to integrate with a third-party platform.  
+          The deliverable for the project would be a high-fidelity prototype of a License Selector feature to replace the existing selector tool on the CC website. The design was to address selection on both mobile and desktop devices, and also needed to integrate with a third-party platform.  
         </p>
         <div class="hero">
           <img class="fw-img" src="../../assets/CC/chooser tool_existing.png"/>
@@ -395,19 +416,18 @@
         <p class="paragraph-light">
           Desktop allows for more detail upfront, essentially bringing the component summaries to the main hero section of the page. Nonetheless, selection is still the primary function of the feature.
         </p>
-        <figure id="video-margin-buffer" class="image process-image has-image-centered">
+        <figure class="image has-image-centered has-video-player-margin">
           <div class="video-container">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/BUlvnqkMxsY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </figure>
-        
         <p class="header-3">
           Third-Party Integration
         </p>
         <p class="paragraph-light">
           While a <a href="https://chrome.google.com/webstore/detail/creative-commons-license/kmahgbmiahpfjiceilbeelhemlcbkcnb?hl=en">Creative Commons License Chooser add on</a> already exists for Google Documents, conference presentations are high on the list of content Paulo wants to license. A Google Slides add on was therefore designed to demonstrate the integration of the revised Lisence Chooser Tool on a third-party platform.
         </p>
-        <figure id="video-margin-buffer" class="image process-image has-image-centered">
+        <figure class="image has-image-centered has-video-player-margin">
           <div class="video-container">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/FRtFQnNJARk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
@@ -445,9 +465,9 @@
         <div class="hero">
           <div class="container">
             <img class="fw-img" src="../../assets/CC/style-guide.png"/>
-            <p class="caption-header"></p>
-            <p class="caption-body"></p>
           </div>
+          <p class="caption-header">Project Design System</p>
+          <p class="caption-body"></p>
         </div>
 
         <p class="header-3">
