@@ -75,26 +75,26 @@
         Autodesk Data Platform (ADP)
       </p>
       <p class="paragraph-lead">
-        ADP is Autodesk’s next generation big data platform. By combining product usage, accounts, marketing, and sales data, ADP offers unparalleled insight into customer behavior.
+        ADP is Autodesk’s next generation big data platform. By combining datasets from across the company into a single warehouse, ADP offers unparalleled insight into customer behavior.
       </p>
       <p class="paragraph-lead">
-        However, ADP was built on top of foundations from many earlier iterations. By 2018, the complexity of these foundations was beginning to impact the user’s experience to the point where creating simple data transformations required significant hand holding. 
+        ADP was built on foundations from many earlier iterations. By 2018, the complexity of these foundations was beginning to impact the user’s experience to the point where creating a simple data pipeline required intense, custom guidance. 
       </p>
       <p class="paragraph-lead">
-        My role over the summer of 2018 was to research, conceptualize, and design a system to improve the user experience of ADP. My directive was to focus in particular on the management of knowledge across the platform.  
+        Embedded within the Data Platform Strategy and Engagement team (DPSE), my role over the summer of 2018 was to research, conceptualize, and design a system to improve the user experience of ADP.
         <br>
       </p>
 
       <div class="columns">
-        <div class="column has-text-left">
+        <div class="column is-2 has-text-left">
           <p class="form-label-headers">Client</p>
           <p class="form-label-subheader">Autodesk</p>
         </div>
-        <div class="column has-text-left">
+        <div class="column is-2 has-text-left">
           <p class="form-label-headers">Duration</p>
           <p class="form-label-subheader">10 weeks</p>
         </div>
-        <div class="column is-one-third has-text-left">
+        <div class="column is-5 has-text-left">
           <p class="form-label-headers">Team</p>
           <p class="form-label-subheader">
             Conner Hunihan<br><em>Product Manager, UX Designer<br></em>
@@ -145,48 +145,63 @@
     <div class="column is-8">
       <div class="content">
         <p class="header-2">
-          Building Empathy for Childwelfare Workers
+          Difficulties of a Nascent Big Data Platform
         </p>
         <p class="paragraph-light">
-          Our design process began by developing an intuition for how these workers do their job. Understanding who they are and what they are trying to do is a critical first step towards designing an intuitive solution. Two information sessions were conducted with CCWIP staff, as well as background research on California’s child welfare system. 
+          To develop intuition around the knowledge challenges facing ADP, user research was conducted including over 20 interviews, two workshops, a community survey, and countless whiteboard diagraming. 
         </p>
         <p class="header-3">
-          How do child welfare workers use data?
+          Distinct user groups
         </p>
         <p class="paragraph-light">
-          To understand the role of data in child welfare, a matrix of use cases was developed that outlined not only the various user groups, but their data-relevant characteristics, as well. 
+          The community survey revealed distinct user groups within ADP, each of which had their own data needs, technological proficiencies, and preference for learning. 
         </p>
         <div class="hero">
-          <img class="fw-img" src="../../assets/CCWIP/use-cases.png"/>
-          <p class="caption-header">Use Case Matrix</p>
-          <p class="caption-body">The CCWIP website caters to numerous distinct user groups, so taking a comprehensive approach allowed the team to maximize the impact of the four-week project scope.</p>
+          <img class="fw-img" src="../../assets/Autodesk/users.png"/>
+          <p class="caption-header">Matrix of ADP Users</p>
+          <p class="caption-body">As a data platform, ADP contains an ecosystem of users, each with their own distinct needs and values. Identifying "user buckets" allowed the DPSE team to prioritize efforts and develop an intuition of project impact.</p>
         </div>
         <p class="header-3">
-          Issues with the CCWIP SITE
+          Articulating User Needs
         </p>
         <p class="paragraph-light">
-          In addition to user research, an exploration of the existing CCWIP site was undertaken, including a complete content audit. This helped the team develop an intuition for the kind of content CCWIP produces, and to begin to understand where gaps currently exist, and why those gaps are problematic.
+          Interviews with data engineers, data analysts, product owners, and team leads suggested that knowledge needs varied significantly across teams. Whereas individual contributors commented on the need for step-specific, detailed instructions, teams spoke of the need for high-level value proposition – how can they build a project around ADP? 
+        </p>
+        <p class="blockquote">
+          “My biggest complaint about ADP is that <b>no one knows what data is in there.</b>”
+        </p>
+        <p class="blockquote-attribution">
+          – Data Analyst
+        </p>
+        <p class="blockquote">
+          “Understanding the <b>process</b> and <b>contact points</b> would have <b>cut the time in half</b>.”
+        </p>
+        <p class="blockquote-attribution">
+          – Data Engineer
+        </p>
+        <p class="header-3">
+          Identifying Resource Gaps
+        </p>
+        <p class="paragraph-light">
+          An audit of the existing ADP knowledge bases was conducted to target most troublesome areas. While knowledge gaps were discovered throughout the entire ADP process, it was the uncertainty at the beginning stages of engagement – when a business team investigates capabilities of the data platform – that offered the most potential. A team cannot use the platform if they don’t know what it can do. 
         </p>
         <div class="hero">
-          <img class="fw-img" src="../../assets/CCWIP/content-audit.png"/>
-          <p class="caption-header">Content Audit of Existing Site</p>
-          <p class="caption-body">Content audits always unearth hidden treasures. In CCWIP's case, the team discovered an entire microsite embedded under a single link.</p>
+          <img class="fw-img" src="../../assets/Autodesk/content-audit.png"/>
+          <p class="caption-header">Audit of Existing Knowledge Sources</p>
+          <p class="caption-body">Rows are knowledge sources, columns are steps in the process of engaging with ADP. Yellow denotes missing or out of date sources, while red indicates large knowledge gaps.</p>
         </div>
-
-        <p class="header-3">
-          Project Insights
-        </p>
         <p class="paragraph-light">
-          Research crystalized around three pivotal insights that became the guiding principles of the design:
+          The value of ADP needed to be communicated more clearly and technical support needed to support individual contributors throughout the process.  Improving the overall user experience of the platform would therefore require a two-fold solution:
         </p>
         <p class="blockquote">
-          Users don’t how to find the data they need on the CCWIP site. 
+          Non-technical users don’t understand how ADP can deliver unique value to their teams
+        </p>
+        <p class="blockquote-attribution">
         </p>
         <p class="blockquote">
-          Users don’t always know what metric to look for.
+          Technical users need standardized process documentation in order to create meanginful value for their team
         </p>
-        <p class="blockquote">
-          Users often have to jump between measures and reports to get the data insights they need. 
+        <p class="blockquote-attribution">
         </p>
       </div>
     </div>
@@ -210,36 +225,59 @@
     <div class="column is-8">
       <div class="content">
         <p class="header-2">
-          Project Scope
+          Defining a Project Scope
+        </p>
+        <p class="header-3">
+          How might we
         </p>
         <p class="paragraph-light">
-          Framing the right question is an essential step in turning research insights into design opportunities. The team utilized 'How Might We Statements' to help frame these opportunities and guide our solutioning:
+          Building on key insights uncovered during research, a How Might We Statement was created to frame the objective of the project:
         </p>
         <p class="blockquote">
-          How might the CCWIP website help analysts discover data that they might not know they are looking for?
+          How might technical, process documentation communicate the value of ADP?
         </p>
         <p class="blockquote-attribution"></p>
         <p class="header-3">
-          Target Users
+          Defining prodcut specifications: what is ADP?
         </p>
         <p class="paragraph-light">
-          Collaborating with CCWIP staff, two personas were developed to represent two of the keys users of the CCWIP website: County Analyst John and Reporter Amanda. County Analyst John was ultimately selected as the most critical persona to design for because he represents the largest population of users on the CCWIP site. 
+          In collaboration with the DPSE group, as well as a consulting team from <a href="https://www.fjordnet.com/">Fjord</a>, ADP functionality was divided into four distinct prodcut packages: Analytics, Data, Core Services, and Support. 
         </p>
         <div class="hero">
-          <img class="fw-img" src="../../assets/CCWIP/persona-john.png"/>
-          <p class="caption-header">Primary User Persona – "John"</p>
-          <p class="caption-body">John was developed further by identifying two potential use cases. The first was John using the CCWIP website to rewrite the county System Improvement Plan (SIP), an exhaustive endeavor that analysts undertake once every five years. The second use case involved John using the CCWIP website to evaluate the county's SIP plan. This is a much less intensive, higher-level use of the site and was ultimately chosen as the use case to design for.</p>
+          <img class="fw-img" src="../../assets/Autodesk/product-offerings.png"/>
+          <p class="caption-header">ADP Product Packages</p>
+          <p class="caption-body">Analytics represent the off-the-shelf analysis products, data represents the raw material, core services stand for the engines of action on the platform, and support is help offered primarily by the Learning and Development team.</p>
         </div>
         <p class="header-3">
-          User Flow
+          Designing a single product experience to scale across the suite 
         </p>
         <p class="paragraph-light">
-          With a design objective and primary user defined, the team developed a mental model for the ideal user flow through the CCWIP website. This would become the bedrock experience on top of which the rest of the website would be designed.
+          The Data Modeling & ETL product within the Core Services package was chosen as the experience to design because the ETL process touches nearly every role on every team that engages with ADP.</p>
+        <p class="paragraph-light">
+          A solution that improved the user experience of running an ETL on ADP would serve as a template to be extended to the rest of ADP products.
         </p>
         <div class="hero">
-          <img class="fw-img" src="../../assets/CCWIP/hero-user-flow.png"/>
-          <p class="caption-header">Site User Flow</p>
-          <p class="caption-body">The challenge laid in designing a system that could guide advanced users directly into the report they needed, while also allowing for novice users to cycle between measures and explore reports laterally.</p>
+          <img class="fw-img" src="../../assets/Autodesk/product-offerings-extended.png"/>
+          <p class="caption-header">Choosing a Specific Product Experience</p>
+          <p class="caption-body">Within the Core Services package, Development & ETL was chosen as the product expeience to desgign for because of it's criticality to the platform: every project requires extraction, transformation, and loading of databases.</p>
+        </div>
+        <p class="header-3">
+          Project Plan
+        </p>
+        <p class="paragraph-light">
+          With key insights uncovered and a design objective defined, the final project scope was now in focus:
+        </p>
+        <p class="blockquote">
+          Create a self-service platform to better commnunicate the value and process of using the ADP suite of products
+        </p>
+        <p class="blockquote-attribution"></p>
+        <p class="paragraph-light">
+          A final project plan was also created to track progress throughout the rest of the summer:
+        </p>
+        <div class="hero">
+          <img class="fw-img" src="../../assets/Autodesk/project-timeline.png"/>
+          <p class="caption-header">Project Timeline</p>
+          <p class="caption-body">The project was divided into four phases: research, synthesis, propose and presentation.</p>
         </div>
       </div>
     </div>
@@ -263,203 +301,121 @@
     <div class="column is-8">
       <div class="content">
         <p class="header-2">
-          Organizing Site Content
+          Giving ADP a Home
         </p>
         <p class="header-3">
-          Supporting both novice and advanced users
+          Finding a place: The data portal
         </p>
         <p class="paragraph-light">
-          John doesn’t always know what report or measure he is looking for, so the site was organized around the actual "Measures” themselves, as well as categorical “Topics”. This created a more flexible navigation system that caters to seasoned veterans, as well as analysts who might be exploring a new data domain. The site already had a personalized dashboard feature of most populare reports that was also incorporated.
+          A centralized Data Portal platform already existed, however, the Portal was created alongside an earlier generation of ADP. As such, information was outdated and did not address the capabilities and processes of current ADP offerings. 
         </p>
         <div class="hero">
-          <img class="fw-img" src="../../assets/CCWIP/site-hierarchy.png"/>
-          <p class="caption-header">Site Information Architecture</p>
-          <p class="caption-body">Organizing the site’s content around both measures and topics affords multiple entries to users. This allows for beginners to explore and discover what it is they need without compromising advanced users’ ability to drill down into their content, unrestricted.</p>
+          <img class="fw-img" src="../../assets/Autodesk/data-portal.png"/>
+          <p class="caption-header">The Existing Data Portal</p>
+          <p class="caption-body">The Data Portal was managed by the Learning and Development team, but ultimately maintained by a contracted web design firm.</p>
         </div>
-        <p class="header-2">
-          Interface Design Iterations
-        </p>
-        <p class="paragraph-light">
-          There is no substitute for the feedback generated by actual users working with real prototypes.
-        </p>
-        <p class="paragraph-light">
-         While the team had focused soley on how to funnel users into content, when homepage layouts were prototyped with CCWIP staff, features like "Announcements” and “Research and Training” were identified as high-priority, and needed to be incorporated.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- fw image -->
-  <section class="columns fw-img">
-    <div class="column">
-      <img class="fw-img" src="../../assets/CCWIP/homepage-iterations.png"/>
-      <p class="caption-header">Landing Page Wireframe Iterations</p>
-      <p class="caption-body">Prototyping homepage designs with CCWIP staff revealed that data sources are frequently updated by the state. The "Announcements" section of the current site logged these changes, but was burried.  Elevating this feature to prominence on the landing page would save analysts countless hours of headache.</p>
-    </div>
-  </section>
-
-  <!-- jump back into PHASE 3 -->
-  <section class="columns">
-    <div class="column is-8 is-offset-2">
-      <div class="content">
         <p class="header-3">
-          MEAURES PAGE: PROTOTYPING LAYOUT COMPONENTS
+          Creating a home: Information Architecture
         </p>
         <p class="paragraph-light">
-          Prototypes of the reports page were also shown to CCWIP staff, who helped determine that a tab layout offered the multiple layers of orgnaization that the measures content required.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- fw image -->
-  <section class="columns fw-img">
-    <div class="column">
-      <img class="image" src="../../assets/CCWIP/measures-page-iterations.png"/>
-      <p class="caption-header">Measures Page Wireframe Iterations</p>
-      <p class="caption-body">A tab layout allowed for sub-categorizations of measures, affording an intuitive, secondary level of organization. </p>
-    </div>
-  </section>
-
-  <!-- jump back into PHASE 3 body -->
-  <section class="columns">
-    <div class="column is-8 is-offset-2">
-      <div class="content">
-        <p class="header-3">
-          Reports page: facilitating lateral navigation between reports
-        </p>
-        <p class="paragraph-light">
-          John usually needs to reference multiple datasets in multiple reports, so it was critical to design a mechanism that allowed for lateral movement across the site. 
-        </p>
-        <p class="paragraph-light">
-        CCWIP’s existing site required users to complete a three-step process to arrive at a single dataset. Compounded over a dozen reports that needed referencing to compile a typical Improvement Plan, this amounted to hours of unnecessary, duplicative work.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- fw image -->
-  <section class="fw-img">
-    <div class="columns">
-      <div class="column">
-        <img class="image" src="../../assets/CCWIP/old-reports-1.png"/>
-      </div>
-      <div class="column">
-        <img class="image" src="../../assets/CCWIP/old-reports-2.png"/>
-      </div>
-      <div class="column">
-        <img class="image" src="../../assets/CCWIP/old-reports-3.png"/>
-      </div>
-      <div class="column">
-        <img class="image" src="../../assets/CCWIP/old-reports-4.png"/>
-      </div>
-    </div>
-    <p class="caption-header">Existing Flow to Pull a Report</p>
-    <p class="caption-body">The existing report pulling process was a multi-step process that required extensive configuration.</p>
-  </section>
-
-  <!-- jump back into PHASE 3 body -->
-  <section class="columns">
-    <div class="column is-8 is-offset-2">
-      <div class="content">
-        <p class="paragraph-light">
-          To streamline this process, report information was first prioritized according to John's mental model of how to evaluate a report.
+          Card sorting exercises were conducted with Data Engineers, Data Scientists, and Product Managers to refine an intuitive categorization schema. 
         </p>
         <div class="hero">
-          <img class="fw-img" src="../../assets/CCWIP/report-information-priority.png"/>
-          <p class="caption-header">Mental Model of How Analysts Evaluate a Report</p>
-          <p class="caption-body">The system should be designed around the user's intuition. Modeling their mental model provides a foundation for the design of the future reports page interface.</p>
+          <img class="fw-img" src="../../assets/Autodesk/card-sorting.png"/>
+          <p class="caption-header">Card Sorting Exercise</p>
+          <p class="caption-body">The exercise refined not just taxonomy of the site, but terminology, as well.</p>
         </div>
         <p class="paragraph-light">
-          Interface components were then prototyped with CCWIP staff to refine the mechanisms used to offer users control.
+         The resulting knowledge hierarchy emphasized ADP value at the highest level, gradually funneling users into progressively technical explanation. 
         </p>
         <p class="paragraph-light">
-          Critically, the team was interested in differentiating between what needs to be customized, and what can be relegated to a default setting. Ultimately, a combination was suggested for the final design: surface pre-configured reports along with similar report suggestions.  
-        </p>
-        <div class="columns">
-          <div class="column">
-            <img class="fw-img" src="../../assets/CCWIP/reports-sketch-1.png"/>
-            <p class="caption-header">Pre-Configured Reports</p>
-            <p class="caption-body">Single report displayed with configurable settings.</p>
-          </div>
-          <div class="column">
-            <img class="fw-img" src="../../assets/CCWIP/reports-sketch-2.png"/>
-            <p class="caption-header">Most Popular Reports</p>
-            <p class="caption-body">Single report displayed, with multiple, similar reports suggested.</p>
-          </div>
-          <div class="column">
-            <img class="fw-img" src="../../assets/CCWIP/reports-sketch-3.png"/>
-            <p class="caption-header">Small Multiple Reports</p>
-            <p class="caption-body">Multiple reports displayed with temporal changes highlighted.</p>
-          </div>
-        </div>
-        <p class="paragraph-light">
-          The final design transforms a three-step process into a single, manipulatable interface. Not only does this simplify the experience, CCWIP staff realized that it would dramatically improve querying response time, as well.
+          Lateral movement across ADP offerings allows for technical users to drill directly into the content they are searching for.
         </p>
         <div class="hero">
-          <img class="fw-img" src="../../assets/CCWIP/report-page-final.png"/>
-          <p class="caption-header">Final Design of Report Page</p>
+          <img class="fw-img" src="../../assets/Autodesk/knowledge-hierarchy.png"/>
+          <p class="caption-header">Conceptual Knowledge Framework</p>
+          <p class="caption-body">Defining the hierarchy of knowledge for the site allowed a distinction to be made between high-level ADP value (which appeals to Data Readers and Team Leads), and low-level product details (which appeal to Data Analysts, Engineers, and Scientists).</p>
+        </div>
+        <p class="paragraph-light">
+         The concedptual knowledge hierarchy was operationalized into a comprehensive restructuring of the Data Portal’s information architecture.
+        </p>
+        <div class="hero">
+          <img class="fw-img" src="../../assets/Autodesk/sitemap.png"/>
+          <p class="caption-header">Data Portal Information Architecture</p>
+          <p class="caption-body">A comprehensive mapping was created that outlined the total content required and where existing content is located.</p>
+        </div>
+        <p class="paragraph-light">
+         Mockups of the Data Portal with the revised information architecture were created for the Learning and Development team to share with contractors who manage the site.  
+        </p>
+        <div class="hero">
+          <img class="fw-img" src="../../assets/Autodesk/nav-bar.png"/>
+          <p class="caption-header">Data Portal Mockup</p>
           <p class="caption-body"></p>
         </div>
+        <p class="header-2">
+          Designing the Product Experience
+        </p>
         <p class="header-3">
-          Design System
+          Mapping the User Journey
         </p>
         <p class="paragraph-light">
-          Building on CCWIPs existing branding, a comprehensive design system was developed. <a href="https://designsystem.digital.gov/">The U.S. Web Design System</a> was used as a boilerplate template, customized with CCWIP typography, colors, and UI components.  
+          A service design blueprint synthesized research and visually represented paint points, dependencies, and areas of opportunity that exist throughout the process of using the “Data Modeling & ETL” product. 
+        </p>
+        <div class="hero">
+          <img class="fw-img" src="../../assets/Autodesk/service-design-blueprint.png"/>
+          <p class="caption-header">ETL Service Design Blueprint</p>
+          <p class="caption-body">Mapping of process, pain points, dependencies, and areas of opportunity involved in the ETL process on ADP.</p>
+        </div>
+        <p class="paragraph-light">
+          The exercise suggested that technical users required three distinct pieces of knowledge throughout their engagement with ADP: 
+        </p>
+        <p class="blockquote">
+          <b>PROCESS</b><br>
+          An overview of the process required to use the various softwares of ADP
+        </p>
+        <p class="blockquote">
+          <b>DETAILS</b><br>
+          Detailed explanations of permissions, points of contact, and use case-dependent instructions 
+        </p>
+        <p class="blockquote">
+          <b>CONTEXTUAL RESOURCES</b><br>
+          Notes of what works and what didn’t for teams that have gone before
+        </p>
+        <p class="blockquote-attribution"></p>
+        <p class="header-3">
+          Initial Prototypes
         </p>
         <p class="paragraph-light">
-          The design system was uploaded to <a href="https://zeplin.io/">Zeplin</a> so that CCWIP developers had direct access to exact CSS properties and values.
+          Early prototypes were tested with users to refine the design of a boilerplate webpage for ADP products. 
         </p>
+        <div class="hero">
+          <img class="fw-img" src="../../assets/Autodesk/wireframes.png"/>
+          <p class="caption-header">Low Fidelity Wireframes</p>
+          <p class="caption-body">A rough prototype was created to validate if the prioritization of content was accurate and relevant to users.</p>
+        </div>
+        <p class="header-3">
+          Usability Testing with Data Engineers
+        </p>
+        <p class="paragraph-light">
+          Mockups of the restructured Data Portal and ADP Product page were tested with Data Engineers. 
+        </p>
+        <div class="hero">
+          <img class="fw-img" src="../../assets/Autodesk/usability-testing.png"/>
+          <p class="caption-body"></p>
+        </div>
+        <p class="paragraph-light">
+          Users praised the high-level overview and guidance that the site would offer, but commented that many of the details required to actually run an ETL are not documented on any source. 
+        </p>
+        <p class="paragraph-light">
+          A wiki rennovation was being simultaneously conducted by the Learning and Development team to address this concern, but maintenance of the technical knowledge base was acknowledged as a crticial assumption to the design’s overall success. 
+        </p>
+        <div class="hero">
+          <img class="fw-img" src="../../assets/Autodesk/feedback.png"/>
+          <p class="caption-body"></p>
+        </div>
       </div>
     </div>
   </section>
-
-  <!-- fw image -->
-  <section class="columns fw-img">
-    <div class='carousel carousel-animated carousel-animate-slide' data-size="5">
-        <div class='carousel-container'>
-          <div class='carousel-item is-active'>
-            <figure class="image"><img src="../../assets/CCWIP/logo-icons.png"></figure>
-          </div>
-          <div class='carousel-item'>
-            <figure class="image"><img src="../../assets/CCWIP/type.png"></figure>
-          </div>
-          <div class='carousel-item'>
-            <figure class="image"><img src="../../assets/CCWIP/colors.png"></figure>
-          </div>
-          <div class='carousel-item'>
-            <figure class="image"><img src="../../assets/CCWIP/forms.png"></figure>
-          </div>
-          <div class='carousel-item'>
-            <figure class="image"><img src="../../assets/CCWIP/page-layouts.png"></figure>
-          </div>
-          <div class='carousel-item'>
-            <figure class="image"><img src="../../assets/CCWIP/ui-component-I.png"></figure>
-          </div>
-          <div class='carousel-item'>
-            <figure class="image"><img src="../../assets/CCWIP/ui-component-II.png"></figure>
-          </div>
-          <div class='carousel-item'>
-            <figure class="image"><img src="../../assets/CCWIP/headers-footers.png"></figure>
-          </div>
-        </div>
-        <div class="carousel-navigation is-centered">
-          <div class="carousel-nav-left">
-            <i class="fa fa-chevron-left" aria-hidden="true"></i>
-          </div>
-          <div class="carousel-nav-right">
-            <i class="fa fa-chevron-right" aria-hidden="true"></i>
-          </div>
-        </div>
-      </div>
-
-      <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@3.0.0/dist/js/bulma-carousel.min.js"></script>
-      <script>
-        $(document).ready(function(){
-               var carousels = bulmaCarousel.attach(); // carousels now contains an array of all Carousel instances
-           });
-      </script>
-  </section> 
 
 <!-- PHASE 4 – DELIVER -->
 <section id="phase">
@@ -481,38 +437,16 @@
           Final Deliverables
         </p>
         <p class="header-3">
-          Improving Overal Usability
+          High Fidelity Mockup
         </p>
         <p class="paragraph-light">
-          Aside from content reorganization and branding, a number of <a href="https://www.nngroup.com/articles/ten-usability-heuristics/">usability improvements</a> were introduced, including: a breadcrumb system to better orient the user, a navigation bar and footer that differentiate non-essential links from navigational elements, and standardized UI components that create platform conventions.
+          Comments from usability tests were incorporated into a final, high-fidelity mockup that was delivered to the Data Strategy and Experience team. 
         </p>
         <div class="hero">
-          <img class="fw-img" src="../../assets/CCWIP/overall-usability.png"/>
-          <p class="caption-header">Standardized Breadcrumb, header, and footer </p>
+          <img class="fw-img" src="../../assets/Autodesk/hi-fi-mockup.png"/>
+          <p class="caption-header"></p>
           <p class="caption-body"></p>
         </div>
-        <p class="header-3">
-          IMPLEMENTATION ROADMAP
-        </p>
-        <p class="paragraph-light">
-          All required changes were defined and scored in a spreadsheet along dimensions of impact and effort. These values were used to calculate an overall priority score that can be used by CCWIP staff for help determine the project roadmap. 
-        </p>
-        <div class="hero">
-          <img class="fw-img" src="../../assets/CCWIP/implementation-roadmap.png"/>
-          <p class="caption-header">Implementation Roadmap </p>
-          <p class="caption-body">Effort and Impact of all proposed changes were evaluated. These scores were used to calculate an overall priority. </p>
-        </div>
-        <p class="header-3">
-          Final Prototype
-        </p>
-        <p class="paragraph-light">
-          The final facilitates the analysts quest to find the data they are looking for by catering to both beginner and advanced users. Centering the design around lateral movement between reports keeps data exploration at the center of the experience, and deplopyment of usability concepts throughout ensures that the site is intuitive and consistent.
-        </p>
-        <figure class="image has-image-centered has-video-player-margin">
-          <div class="video-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/7SXbwWLRa7I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </figure>
       </div>
     </div>
   </section>
@@ -535,32 +469,36 @@
     <div class="column is-8">
       <div class="content">
         <p class="header-2">
-          Impact
-        </p>
-        <p class="header-3">
-          Feedback
+          Lessons Learned from Big Data Design
         </p>
         <p class="paragraph-light">
-          Final deliverables were shared with the client four weeks after the initial kickoff. Aside from sharing feedback on the final product, clients expressed gratitude for the user-centered process that we helped impart throughout the project. 
+          Working on the Autodesk Data Platform was a unique and invaluable experience in many ways. I learned much that, were I to run the same project again, I would do differently. 
         </p>
-        <p class="blockquote">
-          “We asked you to focus on our technical users, but your design actually addresses the needs of both main user groups…you solved for more than we knew we could even ask for”
+        <p class="header-3">
+          Personal Strength: Synthesizing
         </p>
-        <p class="blockquote-attribution">
-          – Wendy Wiegmann, CCWIP Project Director
+        <p class="paragraph-light">
+          The project was interdisciplinary from the very beginning, crossing boundaries between user experience design, research, data science and business, and I realized a personal strength in synthesizing and communicating across those team and boundaries. 
         </p>
-        <p class="blockquote">
-          "The clean, simplified look of the new design is the result of your team's innovative ability to transform a complicated site into one that's now intuitive and user-friendly. We were greatly impressed by your team's technical expertise, the collaborative approach to our project and the adept conceptualization of detailed information. Thank you for delivering an excellent product that far exceeded our expectations."
+        <p class="header-3">
+          Personal Passion: Consulting + Service Design
         </p>
-        <p class="blockquote-attribution">
-          – Markus Exel, CCWIP Software Engineer 
+        <p class="paragraph-light">
+          I discovered a tremendous passion, not only for service design, but for working in the capacity of a consultant.
+        </p>
+        <p class="paragraph-light">
+          As a platform that facilitates team-based big data explorations, designing for ADP required more than a list of needs and a few personas. It required an understanding of the working relationship teams have, and of how data helps facilitate that relationship. I discovered a passion for mapping processes, measuring across dimensions. and prioritizing efforts.    
+        </p>
+        <p class="header-3">
+          Professional Realization: Process is King
+        </p>
+        <p class="paragraph-light">
+          An ambitous project on a tight deadline required clear direction at all times. School and previous projects had exposed me to pieces of an overall process, but the ADP project helped me realize how a comprehensive process enables true innovation.  
         </p>
       </div>
     </div>
   </section>
 </section>
-
-
  
 <!-- FOOTER --> 
 <footer class="footer">
