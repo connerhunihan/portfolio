@@ -38,6 +38,9 @@ $light: $grey-light;
 $footer-background-color: $white;
 $navbar-height: 8rem;
 $dimensions: 16 24 32 48 64 128 1000;
+$tag-background-color: rgba(255,255,255, 0.0);
+// $tag-color: $blue;
+$tag-radius: 0px;
 
 // custom ids 
 #navbar {
@@ -312,6 +315,25 @@ $dimensions: 16 24 32 48 64 128 1000;
   vertical-align: bottom;
 }
 
+.tile-target:hover .hidden {
+  z-index: 2;
+  opacity: 0.9;
+
+}
+
+.tile-target:hover .load-image {
+  opacity: 0.08;
+  z-index: 1;
+}
+
+.hidden {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  opacity: 0.0;
+}
+
 
 // Import only what you need from Bulma
 @import "../node_modules/bulma/sass/utilities/_all.sass";
@@ -319,6 +341,7 @@ $dimensions: 16 24 32 48 64 128 1000;
 @import "../node_modules/bulma/sass/layout/_all.sass";
 @import "../node_modules/bulma/sass/elements/container.sass";
 @import "../node_modules/bulma/sass/elements/image.sass";
+@import "../node_modules/bulma/sass/elements/tag.sass";
 @import "../node_modules/bulma/sass/components/navbar.sass";
 @import "../node_modules/bulma/sass/components/level.sass";
 @import "../node_modules/bulma/sass/grid/columns.sass";

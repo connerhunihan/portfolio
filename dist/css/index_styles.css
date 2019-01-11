@@ -1,0 +1,23 @@
+.home-tile-text {
+	padding: 10% 5% 10% 5%;
+}
+
+.paragraph-light {
+	text-align: center; 
+}
+
+.header-3 {
+	text-align: center;
+	margin-bottom: 2em;
+	font-weight: 600;
+}
+
+.header-2 {
+	text-align: center;
+	margin-bottom: 1em;
+	font-size: 1.5em;
+}
+
+.stuck-bottom {
+	margin-top: 10%
+}
