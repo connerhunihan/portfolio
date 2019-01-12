@@ -1,5 +1,5 @@
 .home-tile-text {
-	padding: 10% 5% 10% 5%;
+	padding: 25% 20% 25% 20%;
 }
 
 .paragraph-light {
@@ -16,8 +16,4 @@
 	text-align: center;
 	margin-bottom: 1em;
 	font-size: 1.5em;
-}
-
-.stuck-bottom {
-	margin-top: 10%
 }
