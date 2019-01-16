@@ -1,6 +1,8 @@
 .cc-bg-img {
   background: url('../../assets/CC/background-gradient-cartoon.png'); 
   background-size: cover;
+  margin-bottom: 1%;
+  height: 11em;
 }
 
 .vertical-center {
