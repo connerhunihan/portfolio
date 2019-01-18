@@ -5,6 +5,10 @@
   padding: 2.25rem 0 2.25rem 0;
 }
 
+.horizontal-center {
+  margin: 0 auto 0 auto;
+}
+
 .hero-photo {
   margin-top: auto;
   margin-bottom: auto;
@@ -29,8 +33,19 @@
   line-height: 1rem;
 }
 
+.project-home-tile-text {
+  padding: 10% 5% 5% 5%;
+}
+
 .process-image {
   width: 50%;
+}
+
+.fw-img-50 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  z-index: 0;
 }
 
 .fw-img {
