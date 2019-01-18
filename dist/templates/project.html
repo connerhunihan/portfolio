@@ -2,9 +2,13 @@
 <html lang="en">
   <head>
     <title>Conner Hunihan</title>
-    <link rel="icon" href="../../favicon.png">
-    <link rel="stylesheet" href="dist/css/mystyles.css">
-    <!-- <link rel="stylesheet" href="dist/css/debugger.css"> -->
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.png">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/mystyles.css">
+    <link rel="stylesheet" href="../css/project_styles.css">
+    <!-- <link rel="stylesheet" href="../css/debugger.css"> -->
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
@@ -14,17 +18,26 @@
   
 <!-- NAVBAR -->
 <div id="navbar" class="columns">
-  <div class="column is-10 is-offset-1">
+  <div class="column is-12 is-offset-1">
     <div class="columns">
       <div class="column is-2">
-        <div class="navbar-item">
-          <a class="nav-active" href="work.html">Case Studies</a>
+        <div class="columns">
+          <div class="column is-two-thirds">
+            <div class="navbar-item">
+              <a class="nav-inactive" href="../../index.html">Case Studies</a>
+            </div>
+          </div>
+          <div class="column is-one-third">
+            <div class="navbar-item">
+              <p class="nav-active">Projects</p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="column is-8">
+      <div class="column is-6">
         <div class="columns is-centered">
           <div class="navbar-item">
-            <a class="logo" href="work.html">Conner Hunihan</a>
+            <a class="logo" href="../../index.html">Conner Hunihan</a>
           </div>
         </div>
       </div>
@@ -32,7 +45,7 @@
         <div class="columns">
           <div class="column is-half">
             <div class="navbar-item">
-              <a class="nav-inactive" href="about.html">About</a>
+              <a class="nav-inactive" href="../../dist/templates/about.html">About</a>
             </div>
           </div>
           <div class="column is-half">
@@ -47,195 +60,173 @@
 </div>
 
 
-<!-- TOP FOLD -->
-<section class="hero hero-section">
-  <div class="hero has-bg-img">
-    <figure class="image hero-photo has-image-centered">
-      <img src="../../assets/project-hero.png">
-    </figure>
-  </div>
-  
-  <div class="columns">
-    <div class="column is-8 is-offset-2">
-      <p class="header-1">
-        Platform agnostic user agency
-      </p>
-      <p class="paragraph-lead">
-        Four week collaboration with the Creative Commons to redesign the <a href="https://creativecommons.org/choose/">License Chooser Tool</a> on desktop, mobile, and third party platforms. 
-      </p>
-
+<section class="hero is-white is-medium">
+  <div class="hero-head">
+    <div class="container">
       <div class="columns">
-        <div class="column has-text-left">
-          <p class="form-label-headers">Client</p>
-          <p class="form-label-subheader">Creative Commons</p>
-        </div>
-        <div class="column has-text-left">
-          <p class="form-label-headers">Duration</p>
-          <p class="form-label-subheader">4 weeks</p>
-        </div>
-        <div class="column has-text-left">
-          <p class="form-label-headers">Team</p>
-          <p class="form-label-subheader">Conner Hunihan</p>
-        </div>
-        <div class="column has-text-left">
-          <p class="form-label-headers">My Role</p>
-          <p class="form-label-subheader">
-            UX Designer<br>
-            Visual Designer<br>
-            Project Manager<br>
-          </p>
-        </div>
-        <div class="column has-text-left">
-          <p class="form-label-headers">Skills</p>
-          <p class="form-label-subheader">
-            User Testing<br>
-            Prototyping<br>
-            Design System<br>
-            Multi-device Design<br>
+        <div class="column is-12 horizontal-center">
+          <p class="paragraph-lead" style="text-align: center;">
+            Personal projects in development, interaction design, and general tinkering. 
           </p>
         </div>
       </div>
-
     </div>
   </div>
 </section>
 
-<!-- PHASE 1 -->
-<section id="phase">
-  <section class="columns">
+<!-- TILES -->
+<div class="columns">
+  <div class="column is-10 is-offset-1">
+    <div class="columns">
 
-    <!-- process image -->
-    <div class="column is-2">
-      <figure class="image process-image has-image-centered">
-        <img src="../../assets/process/1-empathize.png">
-      </figure>
-    </div>
+      <!-- CC -->
+      <div class="tile-target column is-half">
+        <figure class="image is-3by2">
+            <img src="assets/CC/tile-tri-device.png" alt="Creative Commons" class="load-image">
+            
+            <a href="dist/templates/cc.html">
+            <div class="hidden home-tile-text">
+                  
+                  <!-- NOT SURE -->
+                  <!-- <p class="header-2">
+                    Device-agnostic user agency
+                  </p> -->
+                  
+                  <p class="paragraph-light">
+                    Chooser tool to help Creative Commons users understand and find the licenses they need.
+                  </p>
+                  <p class="header-3">
+                     UX Design, Visual Design, Prototyping
+                  </p>
 
-    <!-- body content -->
-    <div class="column is-8">
-      <div class="content">
-        <p class="header-2">
-          How might the chooser tool educate users about Creative Commons Licensing?
-        </p>
-        <p class="paragraph-light">
-          Banjo tote bag bicycle rights, High Life sartorial cray craft beer whatever street art fap. Hashtag typewriter banh mi, squid keffiyeh High Life Brooklyn twee craft beer tousled chillwave. PBR&B selfies chillwave, bespoke tote bag blog post-ironic. Single-origin coffee put a bird on it craft beer YOLO, Portland hella deep v Schlitz. Tumblr Bushwick post-ironic Thundercats. Vinyl 90's keytar, literally cardigan Williamsburg YOLO squid pickled Etsy salvia lo-fi locavore. Meh leggings retro narwhal Neutra.
-        </p>
-        <p class="header-3">
-          Interviews
-        </p>
-        <p class="paragraph-light">
-          Banjo tote bag bicycle rights, High Life sartorial cray craft beer whatever street art fap. Hashtag typewriter banh mi, squid keffiyeh High Life Brooklyn twee craft beer tousled chillwave. PBR&B selfies chillwave, bespoke tote bag blog post-ironic. Single-origin coffee put a bird on it craft beer YOLO, Portland hella deep v Schlitz. Tumblr Bushwick post-ironic Thundercats. Vinyl 90's keytar, literally cardigan Williamsburg YOLO squid pickled Etsy salvia lo-fi locavore. Meh leggings retro narwhal Neutra.
-        </p>
-        <p class="header-2">
-          Customer Journeys
-        </p>
-        <p class="paragraph-light">
-          Banjo tote bag bicycle rights, High Life sartorial cray craft beer whatever street art fap. Hashtag typewriter banh mi, squid keffiyeh High Life Brooklyn twee craft beer tousled chillwave. PBR&B selfies chillwave, bespoke tote bag blog post-ironic. Single-origin coffee put a bird on it craft beer YOLO, Portland hella deep v Schlitz. <a href="www.google.com">Tumblr Bushwick post-ironic Thundercats</a>. Vinyl 90's keytar, literally cardigan Williamsburg YOLO squid pickled Etsy salvia lo-fi locavore. Meh leggings retro narwhal Neutra.
-        </p>
+                  <!-- TAGS, NOT SURE -->
+                  <!-- <div class="tags are-medium">
+                    <span class="tag header-3">UX Design</span>
+                    <span class="tag header-3">Mobile</span>
+                    <span class="tag header-3">Visual Design</span>
+                  </div> -->
+            </div>
+            </a>
+        </figure>
+      </div>
+
+      <!-- CCWIP -->
+      <div class="tile-target column is-half">
+          <figure class="image is-3by2">
+              <img src="assets/CCWIP/ccwip-tile-1.png" alt="Description" class="load-image">
+              <a href="dist/templates/ccwip.html">
+              <div class="hidden home-tile-text">
+                    <!-- NOT SURE -->
+                    <!-- <p class="header-2">
+                      Device-agnostic user agency
+                    </p> -->
+                    
+                    <p class="paragraph-light">
+                      Website and data portal redesign for California childwelfare workers.
+                    </p>
+                    <p class="header-3">
+                       UX Design, Visual Design, User Research
+                    </p>
+
+                    <!-- TAGS, NOT SURE -->
+                    <!-- <div class="tags are-medium">
+                      <span class="tag header-3">UX Design</span>
+                      <span class="tag header-3">Mobile</span>
+                      <span class="tag header-3">Visual Design</span>
+                    </div> -->
+              </div>
+              </a>
+          </figure>
+
       </div>
     </div>
-  </section>
+  </div> 
+</div>
 
-  <!-- fw image -->
-  <section class="hero">
-    <img class="fw-img" src="../../assets/full-width.png"/>
-  </section>
+<div class="columns">
+  <div class="column is-10 is-offset-1">
+    <div class="columns">
 
-  <!-- body -->
-  <section class="columns">
-    <div class="column is-8 is-offset-2">
-      <div class="content">
-        <p class="header-2">
-          How might the chooser tool educate users about Creative Commons Licensing?
-        </p>
-        <p class="paragraph-light">
-          Banjo tote bag bicycle rights, High Life sartorial cray craft beer whatever street art fap. Hashtag typewriter banh mi, squid keffiyeh High Life Brooklyn twee craft beer tousled chillwave. PBR&B selfies chillwave, bespoke tote bag blog post-ironic. Single-origin coffee put a bird on it craft beer YOLO, Portland hella deep v Schlitz. Tumblr Bushwick post-ironic Thundercats. Vinyl 90's keytar, literally cardigan Williamsburg YOLO squid pickled Etsy salvia lo-fi locavore. Meh leggings retro narwhal Neutra.
-        </p>
-        <p class="header-3">
-          Interviews
-        </p>
-        <p class="paragraph-light">
-          Banjo tote bag bicycle rights, High Life sartorial cray craft beer whatever street art fap. Hashtag typewriter banh mi, squid keffiyeh High Life Brooklyn twee craft beer tousled chillwave. PBR&B selfies chillwave, bespoke tote bag blog post-ironic. Single-origin coffee put a bird on it craft beer YOLO, Portland hella deep v Schlitz. Tumblr Bushwick post-ironic Thundercats. Vinyl 90's keytar, literally cardigan Williamsburg YOLO squid pickled Etsy salvia lo-fi locavore. Meh leggings retro narwhal Neutra.
-        </p>
-        <p class="header-2">
-          Customer Journeys
-        </p>
-        <p class="paragraph-light">
-          Banjo tote bag bicycle rights, High Life sartorial cray craft beer whatever street art fap. Hashtag typewriter banh mi, squid keffiyeh High Life Brooklyn twee craft beer tousled chillwave. PBR&B selfies chillwave, bespoke tote bag blog post-ironic. Single-origin coffee put a bird on it craft beer YOLO, Portland hella deep v Schlitz. <a href="www.google.com">Tumblr Bushwick post-ironic Thundercats</a>. Vinyl 90's keytar, literally cardigan Williamsburg YOLO squid pickled Etsy salvia lo-fi locavore. Meh leggings retro narwhal Neutra.
-        </p>
+      <!-- AUTODESK -->
+      <div class="tile-target column is-half">
+          <figure class="image is-3by2">
+              <img src="assets/Nueva/tri-phone isometric.png" alt="Description" class="load-image">
+              <a href="dist/templates/nueva.html">
+                <div class="hidden home-tile-text">
+                    <!-- NOT SURE -->
+                    <!-- <p class="header-2">
+                      Device-agnostic user agency
+                    </p> -->
+                    
+                    <p class="paragraph-light">
+                      Storytelling platform to give a school community the tools to tell its story.
+                    </p>
+                    <p class="header-3">
+                       UX Design, User Research, Service Design
+                    </p>
+
+                    <!-- TAGS, NOT SURE -->
+                    <!-- <div class="tags are-medium">
+                      <span class="tag header-3">UX Design</span>
+                      <span class="tag header-3">Mobile</span>
+                      <span class="tag header-3">Visual Design</span>
+                    </div> -->
+                </div>
+              </a>
+          </figure>
+      </div>
+
+      <!-- NUEVA -->
+      <div class="tile-target column is-half">
+          <figure class="image is-3by2">
+            <img src="assets/Autodesk/tile.png" alt="Description" class="load-image">
+            <a href="dist/templates/autodesk.html">
+              <div class="hidden home-tile-text">
+                    <!-- NOT SURE -->
+                    <!-- <p class="header-2">
+                      Device-agnostic user agency
+                    </p> -->
+                    
+                    <p class="paragraph-light">
+                      Digital concept for Autodesk's next generation data platform. 
+                    </p>
+                    <p class="header-3">
+                       Concept Development, User Research, Service Design
+                    </p>
+
+                    <!-- TAGS, NOT SURE -->
+                    <!-- <div class="tags are-medium">
+                      <span class="tag header-3">UX Design</span>
+                      <span class="tag header-3">Mobile</span>
+                      <span class="tag header-3">Visual Design</span>
+                    </div> -->
+              </div>
+            </a>
+          </figure>
+      </div>
+      
+    </div>
+  </div> 
+</div>
+
+<!-- <div class="columns">
+  <div class="column is-10 is-offset-1">
+    <div class="columns">
+      <div class="column is-half">
+          <figure class="image is-3by2">
+              <a href="">
+              <img src="https://picsum.photos/800/600/?random" alt="Description">
+              </a>
+          </figure>
+      </div>
+      <div class="column is-half">
+          <figure class="image is-3by2">
+              
+          </figure>
       </div>
     </div>
-  </section>
-</section>
-
-<!-- PHASE 2 -->
-<section id="phase">
-  <section class="columns">
-
-    <!-- process image -->
-    <div class="column is-2">
-      <figure class="image process-image has-image-centered">
-        <img src="../../assets/process/2-interpret.png">
-      </figure>
-    </div>
-
-    <!-- body content -->
-    <div class="column is-8">
-      <div class="content">
-        <p class="header-2">
-          How might the chooser tool educate users about Creative Commons Licensing?
-        </p>
-        <p class="paragraph-light">
-          Banjo tote bag bicycle rights, High Life sartorial cray craft beer whatever street art fap. Hashtag typewriter banh mi, squid keffiyeh High Life Brooklyn twee craft beer tousled chillwave. PBR&B selfies chillwave, bespoke tote bag blog post-ironic. Single-origin coffee put a bird on it craft beer YOLO, Portland hella deep v Schlitz. Tumblr Bushwick post-ironic Thundercats. Vinyl 90's keytar, literally cardigan Williamsburg YOLO squid pickled Etsy salvia lo-fi locavore. Meh leggings retro narwhal Neutra.
-        </p>
-        <p class="header-3">
-          Interviews
-        </p>
-        <p class="paragraph-light">
-          Banjo tote bag bicycle rights, High Life sartorial cray craft beer whatever street art fap. Hashtag typewriter banh mi, squid keffiyeh High Life Brooklyn twee craft beer tousled chillwave. PBR&B selfies chillwave, bespoke tote bag blog post-ironic. Single-origin coffee put a bird on it craft beer YOLO, Portland hella deep v Schlitz. Tumblr Bushwick post-ironic Thundercats. Vinyl 90's keytar, literally cardigan Williamsburg YOLO squid pickled Etsy salvia lo-fi locavore. Meh leggings retro narwhal Neutra.
-        </p>
-        <p class="header-2">
-          Customer Journeys
-        </p>
-        <p class="paragraph-light">
-          Banjo tote bag bicycle rights, High Life sartorial cray craft beer whatever street art fap. Hashtag typewriter banh mi, squid keffiyeh High Life Brooklyn twee craft beer tousled chillwave. PBR&B selfies chillwave, bespoke tote bag blog post-ironic. Single-origin coffee put a bird on it craft beer YOLO, Portland hella deep v Schlitz. <a href="www.google.com">Tumblr Bushwick post-ironic Thundercats</a>. Vinyl 90's keytar, literally cardigan Williamsburg YOLO squid pickled Etsy salvia lo-fi locavore. Meh leggings retro narwhal Neutra.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- fw image -->
-  <section class="hero">
-    <img class="fw-img" src="../../assets/full-width.png"/>
-  </section>
-
-  <!-- body -->
-  <section class="columns">
-    <div class="column is-8 is-offset-2">
-      <div class="content">
-        <p class="header-2">
-          How might the chooser tool educate users about Creative Commons Licensing?
-        </p>
-        <p class="paragraph-light">
-          Banjo tote bag bicycle rights, High Life sartorial cray craft beer whatever street art fap. Hashtag typewriter banh mi, squid keffiyeh High Life Brooklyn twee craft beer tousled chillwave. PBR&B selfies chillwave, bespoke tote bag blog post-ironic. Single-origin coffee put a bird on it craft beer YOLO, Portland hella deep v Schlitz. Tumblr Bushwick post-ironic Thundercats. Vinyl 90's keytar, literally cardigan Williamsburg YOLO squid pickled Etsy salvia lo-fi locavore. Meh leggings retro narwhal Neutra.
-        </p>
-        <p class="header-3">
-          Interviews
-        </p>
-        <p class="paragraph-light">
-          Banjo tote bag bicycle rights, High Life sartorial cray craft beer whatever street art fap. Hashtag typewriter banh mi, squid keffiyeh High Life Brooklyn twee craft beer tousled chillwave. PBR&B selfies chillwave, bespoke tote bag blog post-ironic. Single-origin coffee put a bird on it craft beer YOLO, Portland hella deep v Schlitz. Tumblr Bushwick post-ironic Thundercats. Vinyl 90's keytar, literally cardigan Williamsburg YOLO squid pickled Etsy salvia lo-fi locavore. Meh leggings retro narwhal Neutra.
-        </p>
-        <p class="header-2">
-          Customer Journeys
-        </p>
-        <p class="paragraph-light">
-          Banjo tote bag bicycle rights, High Life sartorial cray craft beer whatever street art fap. Hashtag typewriter banh mi, squid keffiyeh High Life Brooklyn twee craft beer tousled chillwave. PBR&B selfies chillwave, bespoke tote bag blog post-ironic. Single-origin coffee put a bird on it craft beer YOLO, Portland hella deep v Schlitz. <a href="www.google.com">Tumblr Bushwick post-ironic Thundercats</a>. Vinyl 90's keytar, literally cardigan Williamsburg YOLO squid pickled Etsy salvia lo-fi locavore. Meh leggings retro narwhal Neutra.
-        </p>
-      </div>
-    </div>
-  </section>
-</section>
-
+  </div> 
+</div> -->
  
 <!-- FOOTER --> 
 <footer class="footer">
