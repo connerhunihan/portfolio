@@ -34,7 +34,14 @@
 }
 
 .project-home-tile-text {
-  padding: 10% 5% 5% 5%;
+  padding: 15% 5% 5% 5%;
+}
+
+.project-home-tile-text .paragraph-light {
+  text-align: center;
+}
+.project-home-tile-text .header-3 {
+  text-align: center;
 }
 
 .process-image {
