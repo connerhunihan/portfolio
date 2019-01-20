@@ -9,6 +9,10 @@
   margin: 0 auto 0 auto;
 }
 
+.large-bottom-margin {
+  margin-bottom: 13rem;
+}
+
 .hero-photo {
   margin-top: auto;
   margin-bottom: auto;
