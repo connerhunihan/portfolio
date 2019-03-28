@@ -262,6 +262,21 @@
   z-index: -1;
   opacity: 0.0; }
 
+.tiny-top-margin {
+  margin-top: 2rem;
+}
+.small-top-margin {
+  margin-top: 5rem;
+}
+
+.medium-top-margin {
+  margin-top: 10rem;
+}
+
+.large-top-margin {
+  margin-top: 15rem;
+}
+
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }

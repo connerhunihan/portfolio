@@ -336,6 +336,16 @@ $tag-radius: 0px;
   opacity: 0.0;
 }
 
+.small-top-margin {
+  margin-top: 5rem;
+}
+.medium-top-margin {
+  margin-top: 10rem;
+}
+.larg-top-margin {
+  margin-top: 15rem;
+}
+
 
 // Import only what you need from Bulma
 @import "../node_modules/bulma/sass/utilities/_all.sass";
